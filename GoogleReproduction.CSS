@@ -1,0 +1,173 @@
+body {
+	padding: 0;
+	margin : 0;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+.header_links {
+	margin: 8px;
+	margin-top: 22px;
+}
+
+.individual_header_links {
+	color: rgb(0, 0, 0);
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	margin-top: 20px;
+	display: inline;
+}
+
+.individual_header_links:hover {
+	text-decoration: underline;
+}
+
+.sign_in_link {
+	color: rgb(255, 255, 255);
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	width: 45px;
+	height: 28px;
+	display: inline;
+}
+
+button {
+	font-weight: bold;
+	background: rgb(66, 133, 244);
+	border: solid 2px rgb(66, 133, 244);
+	width: 70px;
+	height: 30px;
+	margin-top: -7px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+img {
+	width: 272px;
+	height: 92px;
+	margin: 16% auto 0 auto;
+	display: block;
+}
+
+.google_logo {
+	margin: 0 auto 0 auto;
+	width: 80%;
+	height: 120px;
+}
+
+.center_search_area {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.text_input {
+	width: 540px;
+	height: 34;
+	margin-top: 12px;
+	border: none;
+	outline: none;
+}
+
+.search_box {
+	box-sizing: border-box;
+	width: 575px;
+	height: 44px;
+	border: 1px solid lightgray;
+	margin: 0 auto;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.156863);
+}
+
+.microphone {
+	width: 48px;
+	height: 48px;
+	display: inline;
+}
+
+form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.search {
+	font-weight: bold;
+	color: #757575;
+	width: 130px;
+	height: 34px;
+	padding: 0 16px 0 16px;
+	margin: 35px 4px 11px 4px;
+	border-radius: 2px;
+	border: none;
+	background-color: #f2f2f2;
+}
+
+.search:hover {
+	color: rgb(32, 32, 32);
+	border: 1px solid #757575;
+}
+
+.lucky {
+	font-weight: bold;
+	color: #757575;
+	width: 140px;
+	height: 34px;
+	padding: 0 16px 0 16px;
+	margin: 11px 4px 11px 4px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.lucky:hover {
+	color: rgb(32, 32, 32);
+	border: 1px solid #757575;
+}
+
+footer {
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0%;
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	flex-basis: 30%;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	background-color: #f2f2f2;
+	margin-top: 60px;
+}
+
+li {
+	display: inline;
+	padding: 15px;
+}
+
+.left_links {
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+}
+
+.left_links:hover {
+	text-decoration: underline;
+}
+
+.right_links {
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+
+}
+
+.right_links:hover {
+	text-decoration: underline;
+}
+
+.right_footer_list {
+	padding-right: 20px;
+}
