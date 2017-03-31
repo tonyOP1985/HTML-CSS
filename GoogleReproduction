@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tony's_google_home_page</title>
+	<link rel="stylesheet" type="text/css" href="google_home_page_CSS.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<div class="header_links">
+			<a class="individual_header_links" href="https://www.google.com/">Gmail</a>
+		</div>
+
+		<div class="header_links">
+			<a class="individual_header_links" href="https://www.google.com/imghp?hl=en&tab=wi&ei=pJ-0WIPLKsTzmAH2m6DQDQ&ved=0EKouCBcoAQ">Images</a>
+		</div>
+
+		<div class="header_links">
+			<i class="fa fa-th fa-lg" aria-hidden="true"></i>
+		</div>
+
+		<div class="header_links" id="header_sign_in">
+			<button><a class="sign_in_link" href="https://www.google.com/">Sign In</a></button>
+		</div>
+	</header>
+
+	
+	<div class="google_logo">
+		<img src="http://www.underconsideration.com/brandnew/archives/google_2015_logo_detail.png">
+	</div>
+
+	<div class="center_search_area">
+		<form>
+			<div class="search_box">
+				<input class="text_input" type="text" name="search" >
+				<div class="microphone"><i class="fa fa-microphone fa-lg" aria-hidden="true"></i></div><br>
+			</div>
+			<input class="search" type="submit" name="Google Search" value="Google Search">
+			<input class="lucky" type="submit" name="I'm Feeling Lucky" value="I'm Feeling Lucky">
+		</form>
+	</div>
+
+	<footer>
+		<ul class="left_footer_list">
+			<li><a class="left_links" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+			<li><a class="left_links" href="https://www.google.com/services/?fg=1">Business</a></li>
+			<li><a class="left_links" href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+		</ul>
+
+		<ul class="right_footer_list">
+			<li><a class="right_links" href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+			<li><a class="right_links" href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+			<li><a class="right_links" href="https://www.google.com/preferences?hl=en">Settings</a></li>
+		</ul>
+	</footer>
+
+</body>
+</html>
